@@ -1,0 +1,63 @@
+/*** Add your styles here **/
+:root{
+    --primario:#373834;
+    --secundario:#e08709;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Italianno', cursive;
+    font-family: 'Raleway', sans-serif;*/
+}
+
+.bg-dark{
+    background-color: var(--primario)!important;
+}
+
+@media (min-width:768px){
+    .barra.bg-dark{
+        background-color: transparent !important;
+    }
+    .header{
+        position: relative;
+    }
+    .header .barra{
+        position: absolute;
+        z-index: 100;
+        width:100%;
+    }
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.navbar-brand span{
+    font-weight: 900;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.dropdown-menu{
+    background-color: transparent;
+    border: none;
+}
+.dropdown-menu .dropdown-item{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: rgba(255,255,255,.3);
+}
+
+.btn-warning{
+    border-style: none;
+    border-radius: 0%;
+    padding: 14px;
+}
