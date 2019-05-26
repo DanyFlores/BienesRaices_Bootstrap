@@ -61,3 +61,42 @@ body{
     border-radius: 0%;
     padding: 14px;
 }
+
+/**=============**/
+.card-precio{
+   font-size: 1.2rem;
+   color: #71b100; 
+}
+
+/**======Encuentranos=======**/
+.encuentra{
+    background-image: url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+@media (min-width: 992px){
+    .encuentra{
+        background-size: cover;
+    }
+}
+.encuentra .row{
+    height: 25rem;
+}
+
+.encuentra h3{
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.entrada h3::after{
+    content: '';
+    display: block;
+    width: 12rem;
+    height: .2rem;
+    background-color: #71b100;
+    margin-top: .5rem;
+}
+.meta span{
+    color: rgb(204, 122, 122);
+}
+ 
