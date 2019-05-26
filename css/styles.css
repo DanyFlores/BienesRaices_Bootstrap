@@ -100,3 +100,38 @@ body{
     color: rgb(204, 122, 122);
 }
  
+.testimoniales{
+    background-color: #71b100;
+}
+.testimoniales .testimonial-texto::before{
+    content: open-quote;
+    font-size: 4rem;
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    font-weight: 900;
+    color: #ffffff;
+    padding-left: 1rem;
+}
+.testimoniales .carousel-item{
+    padding-left: 2rem;
+    color: #f0e4e4;
+}
+.testimoniales .testimonial-texto{
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    font-weight: 300;
+}
+.testimoniales span{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+/**Footer**/
+.footer.bg-dark{
+    background-color: #373834 !important;
+}
+.footer .nav-link{
+    color: #ffffff;
+    text-transform: uppercase;
+}
